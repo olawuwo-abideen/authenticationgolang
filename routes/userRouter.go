@@ -1,9 +1,10 @@
 package routes
 
 import (
+	controller "github.com/olawuwo-abideen/authenticationgolang/controllers"
+	"github.com/olawuwo-abideen/authenticationgolang/middleware"
+
 	"github.com/gin-gonic/gin"
-	controller "github.com/olawuwo-abideen/golangauthentication/controllers"
-	"github.com/olawuwo-abideen/golangauthentication/middleware"
 )
 
 func UserRoutes(incomingRoutes *gin.Engine) {

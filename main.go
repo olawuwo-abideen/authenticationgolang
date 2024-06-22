@@ -4,9 +4,10 @@ import (
 	"log"
 	"os"
 
+	routes "github.com/olawuwo-abideen/authenticationgolang/routes"
+
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	routes "github.com/olawuwo-abideen/golangauthentication/routes"
 )
 
 func main() {

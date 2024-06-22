@@ -1,8 +1,9 @@
 package routes
 
 import (
+	controller "github.com/olawuwo-abideen/authenticationgolang/controllers"
+
 	"github.com/gin-gonic/gin"
-	controller "github.com/olawuwo-abideen/golangauthentication/controllers"
 )
 
 func AuthRoutes(incomingRoutes *gin.Engine) {
